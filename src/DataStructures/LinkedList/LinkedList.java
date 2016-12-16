@@ -111,4 +111,16 @@ public class LinkedList<E> {
 
         return currNode;
     }
+
+    public static void main(String[] args) {
+        LinkedList testList = new LinkedList();
+        testList.insert(3,0);
+        testList.insert(5,1);
+        testList.insert(6,2);
+        testList.remove(1);
+        testList.insert(111,1);
+        testList.remove(0);
+        testList.insert(42,0);
+        testList.remove(0);
+    }
 }
